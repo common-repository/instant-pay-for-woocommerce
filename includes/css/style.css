@@ -1,0 +1,236 @@
+div.woocommerce-checkout-payment ul.wc_payment_methods li.wc_payment_method.payment_method_advace_custom_payment_gateway label{
+    padding: 1rem 3rem;
+    background: #6658d3;
+    color: #dadaff;
+    box-shadow: 0px 3px 10px #645bc740;
+    border-radius: 6px;
+}
+div.woocommerce-checkout-payment ul.wc_payment_methods li.wc_payment_method.payment_method_advace_custom_payment_gateway label img.customized_payment_icon{    
+    margin-top: -10px;
+    max-height: 48px;
+}
+div.woocommerce-checkout-payment ul.wc_payment_methods li.wc_payment_method.payment_method_advace_custom_payment_gateway .payment_box fieldset{
+    padding: 0;
+    background: none;
+}
+div.woocommerce-checkout-payment ul.wc_payment_methods li.wc_payment_method.payment_method_advace_custom_payment_gateway  input[type=radio]:checked+label::before{ display: none; }
+div.woocommerce-checkout-payment ul.wc_payment_methods li.wc_payment_method.payment_method_advace_custom_payment_gateway div.payment_box.payment_method_advace_custom_payment_gateway{
+    background: #f1efff;
+    border-radius: 6px;
+    padding: 1.5rem 3rem;
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px #645bc740;
+    color: #6658d3;
+}
+p.woocommerce-thankyou-order-received span.text-danger { color: #dc3545;}
+
+div.woocommerce-order p.woocommerce-notice.woocommerce-thankyou-order-received{    
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 1.5rem 2.6rem 0.5rem 2.6rem;
+    font-size: 1rem;
+    box-shadow: 0px 3px 0px #645bc740;
+    color: #6658d3;
+    max-width: 50%;
+    font-weight: 700;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin: 0;
+}
+div.woocommerce-order ul.woocommerce-order-overview.woocommerce-thankyou-order-details{    
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 0 2.6rem 1rem 2.6rem;
+    font-size: 1rem;
+    box-shadow: 0px 4px 6px #645bc740;
+    color: #6658d3;
+    max-width: 50%;
+    list-style: none;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+
+}
+div.woocommerce-order ul.woocommerce-order-overview.woocommerce-thankyou-order-details li{  
+    font-weight: 600;    
+    color: #4b4b4b;
+}
+div.woocommerce-order ul.woocommerce-order-overview.woocommerce-thankyou-order-details li strong{  
+    font-weight: normal;
+}
+
+div.payment_wrapper{
+    background: #f1efff;
+    border-radius: 6px;
+    padding: 1.5rem 3rem;
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px #645bc740;
+    color: #6658d3;
+    border: 11px solid #fff;
+    max-width: 50%;
+}
+div.payment_wrapper h2.woocommerce-order-details__title{
+    color: #4b4b4b;
+    font-size: 22px;
+    font-weight: 600;
+}
+div.payment_wrapper h2.woocommerce-order-details__title img.instant_pay_logo{
+    width: 100px;
+    float: right;
+}
+div.payment_wrapper h5{
+    padding: 10px 0;
+}
+div.payment_wrapper div.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 400px;
+    color: #4b4b4b;
+}
+div.payment_wrapper div.details p{
+    padding: 0;
+    box-shadow: none;
+    color: #4b4b4b;
+    margin: 0;  
+    max-width: 100%;
+}
+div.payment_wrapper div.details button{
+    background: none !important;
+    padding: 0 !important;
+}
+div.payment_wrapper div.details button:hover, div.payment_wrapper div.details button:focus{
+    outline:  none;
+    border-color: transparent;
+}
+div.payment_wrapper div.details button span.hide{
+    display: none;
+}
+div.payment_wrapper div.details button span.show{
+    display: block;
+}
+div.payment_wrapper div.details button.copy-button img.copy-icon{
+    box-shadow: 0 3px 3px 0px #6e67bf1c, 0 4px 6px #c4bfff;
+    width: 30px;
+    border-radius: 6px;
+}
+div.payment_wrapper div.details button.copy-button img.copy-icon:hover{
+    box-shadow: 0 3px 3px 0px #6e67bf1c, 0 4px 6px #c4bfff;
+}
+div.payment_info, div.woocommerce-order p.customer_note{
+    background: #f1efff;
+    border-radius: 6px;
+    padding: 1.5rem 2.6rem;
+    font-size: 1rem;
+    box-shadow: 0px 3px 10px #645bc740;
+    color: #6658d3;
+    max-width: 50%;
+    margin: 10px 0;
+}
+.payment_error_block{
+    background: #ffffff;
+    border-radius: 6px;
+    padding: 1rem 2.6rem;
+    font-size: 1.6rem;
+    box-shadow: 0px 3px 10px #645bc740;
+    color: #dc3545;
+    max-width: 50%;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.popup .popuptext {
+    visibility: hidden;
+    width: 100px;
+    background-color: #555;
+    color: #fff;
+    z-index: 1;
+    bottom: 100%;
+    left: 60%;
+    margin-left: -50px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    font-size: 14px;
+}
+.popup {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+.popup .popuptext:after {
+     content: "";
+     position: absolute;
+     top: 100%;
+     left: 50%;
+     margin-left: -10px;
+     border-width: 7px;
+     border-style: solid;
+     border-color: #555 transparent transparent transparent;
+}
+.popup .show {
+     visibility: visible;
+     -webkit-animation: fadeIn 1s;
+     animation: fadeIn 1s;
+}
+
+@media screen and (max-width: 768px) {
+
+    div.woocommerce-order ul.woocommerce-order-overview.woocommerce-thankyou-order-details {
+        background: #ffffff;
+        border-radius: 6px;
+        padding: 0 2.6rem 1rem 2.6rem;
+        font-size: 1rem;
+        box-shadow: 0px 4px 6px #645bc740;
+        color: #6658d3;
+        max-width: 100%;
+        list-style: none;
+        border-top-right-radius: 0px;
+        border-top-left-radius: 0px;
+    }
+    div.woocommerce-order p.woocommerce-notice.woocommerce-thankyou-order-received {
+        background: #ffffff;
+        border-radius: 6px;
+        padding: 1.5rem 2.6rem 0.5rem 2.6rem;
+        font-size: 1rem;
+        box-shadow: 0px 3px 0px #645bc740;
+        color: #6658d3;
+        max-width: 100%;
+        font-weight: 700;
+        border-bottom-right-radius: 0px;
+        border-bottom-left-radius: 0px;
+    }
+
+    div.payment_wrapper {
+        background: #f1efff;
+        border-radius: 6px;
+        padding: 1.5rem 3rem;
+        font-size: 1rem;
+        box-shadow: 0px 3px 10px #645bc740;
+        color: #6658d3;
+        border: 11px solid #fff;
+        max-width: 100%;
+    }
+
+    div.payment_info {
+        background: #f1efff;
+        border-radius: 6px;
+        padding: 1.5rem 2.6rem;
+        font-size: 1rem;
+        box-shadow: 0px 3px 10px #645bc740;
+        color: #6658d3;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+    div.payment_info {
+        background: #f1efff;
+        border-radius: 6px;
+        padding: 1.5rem 2.6rem;
+        font-size: 1rem;
+        box-shadow: 0px 3px 10px #645bc740;
+        color: #6658d3;
+        max-width: 100%;
+        margin: 10px 0;
+    }
+
+}
